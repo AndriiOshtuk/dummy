@@ -3,6 +3,9 @@
 
 class ContextManager:
 
+    def __init__(self):
+        print('__init__')
+
     def __enter__(self):
         print('__enter__')
 
